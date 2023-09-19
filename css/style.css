@@ -3,60 +3,113 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+
+img { 
+    max-width: 100%;    
 }
 
 /* general */
 
 /* header */
 
+ .background { 
+    color: white;
+    background-image: url(../img/jumbo.png);
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-size: cover;
+    background-position: center ;
+       
+ }
+
 /* header-top */
 .container-ht {
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    background-color: lightblue;
+    padding-bottom: 0.5rem;    
 }
 
-.header-top {
-    background-color: goldenrod;
+.header-top {    
     display: flex;
     justify-content: space-between;
-    border: 1px dashed black;
+}
+
+.container-logo {
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .link {
-    justify-content: center;
-    flex-grow: 3;
-    border: 1px dashed black;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-grow: 3;    
     list-style-type: none;
     display: flex;
     gap: 0.5rem;
+    width: 60%;
 }
 
-.header-txt {
-    flex-grow: 1;
-}
+a { 
+    color: white;}
+
+    .container-login {
+        width: 20%;
+        display: flex;
+        justify-content: flex-end;
+    }
 
 .login {
     text-align: end;
+    color: black;
+    background-color: white;
+    border-radius: 2rem;
+    padding: 1rem;
+    
 }
 
 /* header-bottom */
 
-.container-hb {
-    background-color: blue;
-    min-height: 10rem;
-    padding: 1rem;
-    padding-left: 20%;
-    padding-right: 20%;
+.container-hb {    
+    margin-top: 3.5rem;
+    padding-left: 30%;
+    padding-right: 30%;
+    text-align: center;
+    margin-bottom: 2rem;
 }
 
-.content-hb {
-    min-height: 10rem;
-    background-color: violet;
-    border: 1px dashed black;
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
+
+.action{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.button-white{
+    background-color: white;
+    color: black;
+    
+}
+
+.button-black {
+    background-color: #23272a;    
+}
+
+.button{
+    border-radius: 1rem;    
+    padding: 1rem;
+    
+}
+     
+
 
 /* section 1 */
  .container-white {
