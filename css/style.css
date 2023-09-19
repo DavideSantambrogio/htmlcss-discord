@@ -109,9 +109,13 @@ h1{
 }
 
 .button{
-    border-radius: 1rem;    
-    padding: 1rem;
-    
+    border-radius: 2rem;    
+    padding: 1rem;    
+}
+
+.button-download{
+    background-color: lightskyblue;
+
 }
      
 
@@ -152,6 +156,23 @@ h2{
     text-align: center;               
 }
 
+.container-last { 
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.content-last {
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+}
+.button-download{
+    color: white;
+}
+
+
 /* footer */
 /* top */
 .footer-top {
@@ -165,9 +186,6 @@ h2{
 }
 
 .red {
-    min-height: 10rem;
-    background-color: lightcoral;    
-    border: 1px dashed white;
     width: 70%;
 }
 
@@ -178,7 +196,25 @@ h2{
     border: 1px dashed black;    
 }
 
+h3{
+    font-size: 2rem; 
+    margin-bottom: 1rem;
+    
+}
 
+.lenguage {
+    display: inline-block;
+    font-size: 0.7rem;
+    height: 1rem;
+    line-height: 1rem;
+    color: white;
+}
+
+.ico { 
+    font-size: 1rem;
+    padding: 0.5em; 
+
+}
 
 /* bottom */
 
@@ -206,3 +242,4 @@ h2{
     background-color: lightcoral;
     border: 1px dashed black;
 }
+
