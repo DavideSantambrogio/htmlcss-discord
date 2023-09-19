@@ -1,0 +1,152 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* general */
+
+/* header */
+
+/* header-top */
+.container-ht {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: lightblue;
+}
+
+.header-top {
+    background-color: goldenrod;
+    display: flex;
+    justify-content: space-between;
+    border: 1px dashed black;
+}
+
+.link {
+    justify-content: center;
+    flex-grow: 3;
+    border: 1px dashed black;
+    list-style-type: none;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.header-txt {
+    flex-grow: 1;
+}
+
+.login {
+    text-align: end;
+}
+
+/* header-bottom */
+
+.container-hb {
+    background-color: blue;
+    min-height: 10rem;
+    padding: 1rem;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.content-hb {
+    min-height: 10rem;
+    background-color: violet;
+    border: 1px dashed black;
+}
+
+/* section 1 */
+ .container-white {
+    padding: 1rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: white;
+    display: flex ;
+ }
+
+.content-big {
+    background-color: lightskyblue;
+    width: 60%;
+    min-height: 10rem;
+    border: 1px dashed black;
+}
+
+.content-small {
+    background-color: pink;
+    width: 40%;
+    min-height: 10rem;
+    border: 1px dashed black;
+}
+
+.container-grey {
+    padding: 1rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: lightgray;
+    display: flex ;
+}
+
+.content-total {
+    background-color: green;
+    width: 100%;
+    min-height: 10rem;
+    border: 1px dashed black;
+}
+
+/* footer */
+/* top */
+.footer-top {
+    background-color: #1f1f1f;
+    padding-top: 0.3rem;
+    padding-left: 10%;
+    padding-right: 10%;    
+    padding-bottom: 1rem;
+    display: flex;
+
+}
+
+.red {
+    min-height: 10rem;
+    background-color: lightcoral;    
+    border: 1px dashed white;
+    width: 70%;
+}
+
+.aqua {
+    min-height: 10rem;
+    background-color: aqua;
+    width: calc(100%/4);
+    border: 1px dashed black;    
+}
+
+
+
+/* bottom */
+
+.footer-bottom {
+    background-color: #1f1f1f;
+    padding-top: 0.5rem;
+        
+    padding-bottom: 1rem;    
+}
+
+.container-fb {
+    background-color: aquamarine; 
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.content-fb {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.ending {
+    background-color: lightcoral;
+    border: 1px dashed black;
+}
