@@ -7,26 +7,28 @@
 }
 
 img { 
-    max-width: 100%;    
+    max-width: 100%;     
 }
 
 /* general */
 
+bodY{
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 /* header */
 
  .background { 
     color: white;
-    background-image: url(../img/jumbo.png);
-    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-image: url(../img/jumbo.png);    
     background-size: cover;
-    background-position: center ;
-       
+    background-position: initial ;
+           
  }
 
 /* header-top */
 .container-ht {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;    
 }
@@ -78,12 +80,15 @@ a {
     padding-left: 30%;
     padding-right: 30%;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
-h1 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+.content-hb {
+    font-size: 1.5rem;
+}
+
+h1{
+    font-size: 4rem;
 }
 
 .action{
@@ -114,39 +119,37 @@ h1 {
 /* section 1 */
  .container-white {
     padding: 1rem;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
     background-color: white;
     display: flex ;
  }
 
 .content-big {
-    background-color: lightskyblue;
-    width: 60%;
-    min-height: 10rem;
-    border: 1px dashed black;
+    width: 60%;    
 }
 
-.content-small {
-    background-color: pink;
-    width: 40%;
-    min-height: 10rem;
-    border: 1px dashed black;
+.content-small {    
+    width: 40%;     
+    padding-top: 1.5rem;
+    font-size: 1.5rem;    
+}
+
+h2{
+    font-size: 3rem;
+    margin-bottom: 1.5rem ;
 }
 
 .container-grey {
     padding: 1rem;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
     background-color: lightgray;
     display: flex ;
 }
 
 .content-total {
-    background-color: green;
-    width: 100%;
-    min-height: 10rem;
-    border: 1px dashed black;
+    text-align: center;               
 }
 
 /* footer */
@@ -154,8 +157,8 @@ h1 {
 .footer-top {
     background-color: #1f1f1f;
     padding-top: 0.3rem;
-    padding-left: 10%;
-    padding-right: 10%;    
+    padding-left: 20%;
+    padding-right: 20%;    
     padding-bottom: 1rem;
     display: flex;
 
