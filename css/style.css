@@ -21,7 +21,7 @@ bodY{
     color: white;
     background-image: url(../img/jumbo.png);    
     background-size: cover;
-    background-position: initial ;
+    background-position: center left ;   
            
  }
 
@@ -56,13 +56,15 @@ bodY{
 }
 
 a { 
-    color: white;}
+    color: white;
+    text-decoration: none;
+}
 
-    .container-login {
-        width: 20%;
-        display: flex;
-        justify-content: flex-end;
-    }
+.container-login {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
 
 .login {
     text-align: end;
@@ -243,3 +245,8 @@ h3{
     border: 1px dashed black;
 }
 
+.footer-big-title {
+    color: #7289da ;
+    
+
+}
