@@ -178,8 +178,9 @@ h2{
 /* footer */
 /* top */
 .footer-top {
+    
     background-color: #1f1f1f;
-    padding-top: 0.3rem;
+    padding-top: 3rem;
     padding-left: 20%;
     padding-right: 20%;    
     padding-bottom: 1rem;
@@ -188,15 +189,10 @@ h2{
 }
 
 .red {
-    width: 70%;
+    width: 50%;
 }
 
-.aqua {
-    min-height: 10rem;
-    background-color: aqua;
-    width: calc(100%/4);
-    border: 1px dashed black;    
-}
+
 
 h3{
     font-size: 2rem; 
@@ -222,8 +218,7 @@ h3{
 
 .footer-bottom {
     background-color: #1f1f1f;
-    padding-top: 0.5rem;
-        
+    padding-top: 0.5rem;           
     padding-bottom: 1rem;    
 }
 
@@ -247,6 +242,24 @@ h3{
 
 .footer-big-title {
     color: #7289da ;
-    
+}
 
+.footer-links {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.footer-links div {
+    width: 25%;
+}
+
+
+li {
+    list-style: none; 
+    color: white;
+    margin-bottom: 1rem;
+}
+
+h4 { color: #7289da;
+    font-size: 1.2rem;
 }
